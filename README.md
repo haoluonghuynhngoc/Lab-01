@@ -214,7 +214,3 @@ docker-compose down
 | Docker Setup | 20% |
 | Test Cases | 20% |
 | Documentation | 10% |
-
-## Nộp bài
-
-Đẩy repository lên GitHub và nộp link repository.
