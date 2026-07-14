@@ -1,0 +1,15 @@
+# =============================================================================
+# Docker Compose configuration for Movie Rating Prediction API
+# DDM501 - Lab 1: First ML Product
+# =============================================================================
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+    environment:
+      - MODEL_PATH=/app/models/svd_model.pkl
+    restart: unless-stopped

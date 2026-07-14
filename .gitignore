@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Keep trained model in repo (lab deliverable requires .pkl)
+# models/*.pkl
+!models/.gitkeep
+
+# Data (raw dataset is downloaded by train script)
+data/
+*.csv
+
+# Logs
+*.log
+
+# Docker
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db
